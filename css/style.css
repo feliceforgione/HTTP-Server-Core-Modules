@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(27, 100, 44);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
