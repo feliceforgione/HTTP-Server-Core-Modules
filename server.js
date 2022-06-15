@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const url = require("url");
 const figlet = require("figlet");
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const server = http.createServer((req, res) => {
   const reqURL = new URL(req.url, `http://localhost:${port}`);
